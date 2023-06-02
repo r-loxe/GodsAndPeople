@@ -1,0 +1,171 @@
+body {
+    background-image: url(img/f538eb998c16e153e01ef3801ddd1374.jpg);
+    font-family: 'Didact Gothic', sans-serif;
+ margin: 0;
+}
+
+.central-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/fon.jpg);
+    padding: 5% 5%;
+    margin: 5% 5%;
+    border-radius: 30px;
+    opacity: 0.9;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    box-shadow: 0px 0px 20px salmon;
+}
+
+.central-image {
+
+    background-repeat: no-repeat;
+    background-size: none;
+    min-height: 200px;
+    min-width: 300px;
+    width: 50%;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 5px;
+}
+.central-map{
+
+    background-repeat: no-repeat;
+    background-size: none;
+    width: 100%;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 5px;
+}
+.text-image1{
+    float: right;
+}
+.text-image2{
+    float: left;
+}
+.text-image1, .text-image2{
+    width: 30%;
+    min-height: 50px;
+    min-width: 100px;
+    margin: 6px;
+    border: solid black 1px;
+    box-shadow: 0px 0px 2px black ;
+    border-radius: 5%;
+    font-size: 1.1rem;
+}
+.central-text {
+    font-size: large;
+    color: rgb(37, 255, 255);
+    text-shadow: 0px 0px 10px  rgb(0, 0, 0);
+    -webkit-text-stroke: black 0.2px;
+}
+.upicon{
+    box-shadow: 1px 1px 1px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    font-weight: 900;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.change{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0 rgb(71, 164, 189);
+    background-color:rgba(56, 5, 113, 0.589)  ;
+    height: 150px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 1%;
+    text-align: center;
+}
+.change h2{
+    text-decoration: underline;
+}
+.change p{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color:blueviolet ;
+    box-shadow: 0px 0px 5px inset rgb(27, 111, 255);
+
+}
+.change-part1 p{
+    background-image: url(img/Senko_happy.png);
+    background-position: 8px -60px;
+    background-repeat: no-repeat;
+    border-radius: 30%;
+    -webkit-text-stroke: black 0.05px;
+
+}
+.change-part2 p{
+        background-image: url(img/966130-anime-cherry-blossom-road-landscape-town.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    -webkit-text-stroke: black 0.05px;
+    background-size: 140%;
+}
+.change-part3 p{
+    background-image: url(img/anime-question.jpeg);
+background-position: center -50px;
+background-repeat: repeat-x;
+border-radius: 20%;
+-webkit-text-stroke: black 0.05px;
+background-size: 30%;
+
+}
+.change-part4 p{
+    background-image: url(img/answer.jpg);
+background-position: center -10px;
+border-radius: 20%;
+-webkit-text-stroke: black 0.05px;
+background-size: 110%;
+}
+.down-part{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 20px 0 rgb(71, 164, 189);
+    background-color:rgba(81, 68, 96, 0.589)  ;
+    height: 150px;
+}
+@keyframes menu {
+ 0%{
+    background-position: 0%;
+    background-image: url(img/istockphoto-531112875-612x612.jpg);
+ }
+ 100%{
+    background-image: url(img/istockphoto-531112875-612x612.jpg) ;
+    background-position: 100%;
+}
+    
+    
+}
+.menu{
+    background-color:  rgba(67, 88, 121, 0.561);
+    box-shadow: 0 0 20px 0 rgb(67, 88, 121);
+    display: flex;
+    justify-content:space-around;
+    position:sticky;
+}
+.menu-plus{
+    border: 1px solid rgb(64, 127, 228);
+    display: flex;
+    justify-content: center;
+    min-width: 70px;
+    padding: 2%;
+    border-radius: 5%;
+}
+.menu-plus a{
+color: rgba(216, 142, 231, 0.622);
+text-decoration: none;
+font-weight: 900;
+font-size: 1.2rem;
+}
+.menu-plus:hover{
+    animation: menu 1s  0s infinite linear;
+
+}
